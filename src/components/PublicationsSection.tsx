@@ -19,7 +19,7 @@ const publications: Publication[] = [
     year: '2024',
     type: 'IAC',
     icon: '🛰️',
-    url: 'https://www.researchgate.net/publication/385012543_CubeOS_A_PX4_Autopilot-inspired_flight_software_for_Nepal\'s_next-generation_CubeSat_bus',
+    url: 'https://www.researchgate.net/publication/387270776_CubeOS_A_PX4_Autopilot-inspired_flight_software_for_Nepal\'s_next-generation_CubeSat_bus',
     badgeText: 'IAC 2024 / NuttX RTOS',
   },
   {
