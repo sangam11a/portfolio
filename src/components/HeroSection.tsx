@@ -4,10 +4,10 @@ import { motion } from 'framer-motion';
 const EarthScene = lazy(() => import('./EarthScene'));
 
 const roles = [
-  'Satellite Systems & OBC Engineer',
-  'Machine Learning & Computer Vision Engineer',
-  'Backend & Telemetry Developer',
-  'Satellite Research Fellow & Robotics Lead',
+  'Satellite Systems & OBC Lead',
+  'Embedded Systems & PCB Design Engineer',
+  'Computer Vision & NLP (Machine Learning)',
+  'Backend Telemetry & IoT Developer',
 ];
 
 function TypingText() {
@@ -111,11 +111,11 @@ export default function HeroSection() {
             transition={{ delay: 1, duration: 0.8 }}
             className="text-[14.5px] text-slate-400 leading-[1.8] mb-10 max-w-lg"
           >
-            Engineering robust systems across{' '}
-            <span className="text-accent-cyan font-medium">Satellite OBC & Flight Software</span>,{' '}
-            <span className="text-accent-indigo font-medium">Machine Learning & Computer Vision</span>, and{' '}
-            <span className="text-accent-emerald font-medium">Backend Telemetry & IoT Networks</span>.
-            Architect of Nepal's next-generation CubeSat software stack.
+            Engineering advanced solutions across{' '}
+            <span className="text-accent-cyan font-medium">Embedded Systems & PCB Design</span>,{' '}
+            <span className="text-accent-indigo font-medium">Computer Vision & NLP (AI/ML)</span>, and{' '}
+            <span className="text-accent-emerald font-medium">Satellite OBC & Backend Telemetry</span>.
+            Lead architect for CubeOS flight software on NuttX RTOS.
           </motion.p>
 
           {/* CTAs */}

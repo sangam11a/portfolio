@@ -3,18 +3,18 @@ import { motion, useInView } from 'framer-motion';
 import { useRef } from 'react';
 
 const interests = [
-  { icon: '🤖', title: 'Robotic Manipulators & End-effectors', color: '#06b6d4' },
-  { icon: '👁️', title: 'AI-based Perception (2D/3D) & Computer Vision', color: '#6366f1' },
-  { icon: '🔌', title: 'Sensors & Embedded Control Systems', color: '#10b981' },
-  { icon: '🌾', title: 'Agricultural Robotics and Automation', color: '#f59e0b' },
-  { icon: '🛩️', title: 'UGV/UAV Applications in Precision Agriculture', color: '#f43f5e' },
+  { icon: '🔌', title: 'Embedded Systems & Multi-Layer PCB Design', color: '#10b981' },
+  { icon: '👁️', title: 'Computer Vision & Edge Perception (2D/3D)', color: '#6366f1' },
+  { icon: '🧠', title: 'Natural Language Processing (NLP) & Transformers', color: '#8b5cf6' },
+  { icon: '🛰️', title: 'CubeSat OBC & Autonomous Flight Software', color: '#06b6d4' },
+  { icon: '🤖', title: 'Robotics Control & Precision Automation', color: '#f59e0b' },
 ];
 
 const highlights = [
-  { icon: '🛰️', text: 'CubeSat OBC & Flight Software (CubeOS / NuttX)' },
-  { icon: '🧠', text: 'Machine Learning & Edge AI (YOLO / Transformers / TinyML)' },
-  { icon: '📡', text: 'Backend Systems & LoRaWAN Telemetry Networks' },
-  { icon: '🤖', text: 'Robotics Control & Hardware-in-the-Loop (ROS / PX4)' },
+  { icon: '🔌', text: 'Embedded Systems & Custom PCB Design (STM32)' },
+  { icon: '👁️', text: 'Computer Vision & Real-time Edge AI (YOLO / DETR)' },
+  { icon: '🧠', text: 'NLP & Transformer Models (Prasta Nepali)' },
+  { icon: '🛰️', text: 'CubeSat OBC Flight Software (CubeOS / NuttX)' },
 ];
 
 export default function AboutSection() {
@@ -53,10 +53,10 @@ export default function AboutSection() {
                 <h3 className="text-lg font-semibold text-white">Summary</h3>
               </div>
               <p className="text-[14.5px] text-slate-400 leading-[1.8] mb-5">
-                Computer Engineer, <span className="text-accent-cyan font-medium">Satellite Systems & OBC Lead</span>, and <span className="text-accent-indigo font-medium">Machine Learning Engineer</span> specializing in CubeSat flight software, intelligent robotic control, and edge computing. Primary architect of <span className="text-accent-violet font-medium">CubeOS</span> (a PX4-inspired flight software system on NuttX RTOS) and satellite research fellow contributing to international aerospace symposia.
+                Computer Engineer specializing in <span className="text-accent-cyan font-medium">Embedded Systems & PCB Design</span>, <span className="text-accent-indigo font-medium">Computer Vision & NLP</span>, and <span className="text-accent-violet font-medium">Satellite On-Board Computers (OBC)</span>. Primary architect of <strong>CubeOS</strong> (a PX4-inspired flight software stack on NuttX RTOS) and lead researcher for multiple national and international small satellite and robotic missions.
               </p>
               <p className="text-[14.5px] text-slate-400 leading-[1.8] mb-8">
-                Skilled in designing full-stack IoT telemetry architectures, developing <span className="text-accent-emerald font-medium">Backend & LoRaWAN</span> data pipelines, and implementing real-time perception models (YOLOv12S, DETR, Transformers, U-Net) for resource-constrained hardware (STM32F4/H7/WL) and autonomous platforms using ROS 2, PX4, and Gazebo.
+                Experienced in designing custom PCBs and embedded sensor nodes, deploying deep learning models (<span className="text-accent-emerald font-medium">YOLOv12S, DETR, Transformers, U-Net</span>) on resource-constrained microcontrollers (STM32F4/H7/WL), and architecting backend telemetry networks (LoRaWAN & REST APIs) with real-time alerting.
               </p>
 
               {/* Highlight chips */}
