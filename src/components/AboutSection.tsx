@@ -11,10 +11,10 @@ const interests = [
 ];
 
 const highlights = [
-  { icon: '🛰️', text: 'CubeSat Flight Software (PX4-inspired)' },
-  { icon: '🧠', text: 'AI/ML on Edge & Resource-Constrained Platforms' },
-  { icon: '📡', text: 'LoRaWAN Sensor Networks & IoT' },
-  { icon: '🎯', text: 'Real-time Perception & Control Systems' },
+  { icon: '🛰️', text: 'CubeSat OBC & Flight Software (CubeOS / NuttX)' },
+  { icon: '🧠', text: 'Machine Learning & Edge AI (YOLO / Transformers / TinyML)' },
+  { icon: '📡', text: 'Backend Systems & LoRaWAN Telemetry Networks' },
+  { icon: '🤖', text: 'Robotics Control & Hardware-in-the-Loop (ROS / PX4)' },
 ];
 
 export default function AboutSection() {
@@ -53,15 +53,10 @@ export default function AboutSection() {
                 <h3 className="text-lg font-semibold text-white">Summary</h3>
               </div>
               <p className="text-[14.5px] text-slate-400 leading-[1.8] mb-5">
-                Computer Engineer specializing in <span className="text-accent-cyan font-medium">robotics</span>, <span className="text-accent-indigo font-medium">embedded systems</span>, and intelligent
-                automation with expertise in real-time control, perception, and AI-driven robotic
-                applications. Experienced in developing and integrating hardware-software systems for
-                robotic manipulators, UAV/UGV platforms, agricultural automation, and LoRaWAN-based
-                sensor networks for asset monitoring with real-time alerts.
+                Computer Engineer, <span className="text-accent-cyan font-medium">Satellite Systems & OBC Lead</span>, and <span className="text-accent-indigo font-medium">Machine Learning Engineer</span> specializing in CubeSat flight software, intelligent robotic control, and edge computing. Primary architect of <span className="text-accent-violet font-medium">CubeOS</span> (a PX4-inspired flight software system on NuttX RTOS) and satellite research fellow contributing to international aerospace symposia.
               </p>
               <p className="text-[14.5px] text-slate-400 leading-[1.8] mb-8">
-                Skilled in designing embedded sensor systems, developing <span className="text-accent-violet font-medium">AI/ML-driven perception</span> algorithms, and simulating autonomous systems using ROS, PX4, and Gazebo.
-                Proficient in Python, C++, MATLAB, and resource-constrained embedded platforms.
+                Skilled in designing full-stack IoT telemetry architectures, developing <span className="text-accent-emerald font-medium">Backend & LoRaWAN</span> data pipelines, and implementing real-time perception models (YOLOv12S, DETR, Transformers, U-Net) for resource-constrained hardware (STM32F4/H7/WL) and autonomous platforms using ROS 2, PX4, and Gazebo.
               </p>
 
               {/* Highlight chips */}

@@ -3,28 +3,34 @@ import { useRef } from 'react';
 
 const skillCategories = [
   {
-    title: 'Languages',
-    icon: (<svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}><path strokeLinecap="round" strokeLinejoin="round" d="M17.25 6.75L22.5 12l-5.25 5.25m-10.5 0L1.5 12l5.25-5.25m7.5-3l-4.5 16.5" /></svg>),
-    color: '#06b6d4',
-    skills: ['Python', 'C++', 'C', 'MATLAB', 'C#', 'Bash', 'Java'],
-  },
-  {
-    title: 'Frameworks & Platforms',
-    icon: (<svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}><path strokeLinecap="round" strokeLinejoin="round" d="M6.429 9.75L2.25 12l4.179 2.25m0-4.5l5.571 3 5.571-3m-11.142 0L2.25 7.5 12 2.25l9.75 5.25-4.179 2.25m0 0L12 12.75 6.429 9.75m11.142 0l4.179 2.25L12 17.25 2.25 12l4.179-2.25m11.142 0l4.179 2.25L12 22.5l-9.75-5.25 4.179-2.25" /></svg>),
+    title: 'Space Systems & Flight Software',
+    icon: (<svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}><path strokeLinecap="round" strokeLinejoin="round" d="M15.59 14.37a6 6 0 01-5.84 7.38v-4.8m5.84-2.58a14.98 14.98 0 006.16-12.12A14.98 14.98 0 009.631 8.41m5.96 5.96a14.926 14.926 0 01-5.841 2.58m-.119-8.54a6 6 0 00-7.381 5.84h4.8m2.581-5.84a14.927 14.927 0 00-2.58 5.84m2.699 2.7c-.103.021-.207.041-.311.06a15.09 15.09 0 01-2.448-2.448 14.9 14.9 0 01.06-.312m-2.24 2.39a4.493 4.493 0 00-1.757 4.306 4.493 4.493 0 004.306-1.758M16.5 9a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0z" /></svg>),
     color: '#6366f1',
-    skills: ['PyTorch', 'TensorFlow', 'NuttX RTOS', 'PX4', 'ROS', 'Gazebo', 'Spring Boot'],
+    skills: ['NuttX RTOS', 'CubeSat OBC', 'PX4 Autopilot', 'ROS 2', 'Gazebo SITL', 'CubeOS', 'HIL Simulation'],
   },
   {
-    title: 'Domains',
+    title: 'Machine Learning & Computer Vision',
     icon: (<svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}><path strokeLinecap="round" strokeLinejoin="round" d="M9.813 15.904L9 18.75l-.813-2.846a4.5 4.5 0 00-3.09-3.09L2.25 12l2.846-.813a4.5 4.5 0 003.09-3.09L9 5.25l.813 2.846a4.5 4.5 0 003.09 3.09L15.75 12l-2.846.813a4.5 4.5 0 00-3.09 3.09z" /></svg>),
     color: '#8b5cf6',
-    skills: ['Embedded Systems', 'CubeSat Flight Software', 'Reinforcement Learning', 'NLP', 'Computer Vision'],
+    skills: ['PyTorch', 'TensorFlow', 'YOLOv12S / YOLOv8', 'DETR', 'Transformers', 'Edge AI / TinyML', 'U-Net'],
   },
   {
-    title: 'Automation & Design',
-    icon: (<svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}><path strokeLinecap="round" strokeLinejoin="round" d="M11.42 15.17l-5.1-5.1a1.5 1.5 0 010-2.12l.88-.88a1.5 1.5 0 012.12 0l3.22 3.22 7.1-7.1a1.5 1.5 0 012.12 0l.88.88a1.5 1.5 0 010 2.12l-8.98 8.98a1.5 1.5 0 01-2.24 0z" /></svg>),
+    title: 'Backend & Cloud Telemetry',
+    icon: (<svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}><path strokeLinecap="round" strokeLinejoin="round" d="M6.429 9.75L2.25 12l4.179 2.25m0-4.5l5.571 3 5.571-3m-11.142 0L2.25 7.5 12 2.25l9.75 5.25-4.179 2.25m0 0L12 12.75 6.429 9.75m11.142 0l4.179 2.25L12 17.25 2.25 12l4.179-2.25m11.142 0l4.179 2.25L12 22.5l-9.75-5.25 4.179-2.25" /></svg>),
+    color: '#06b6d4',
+    skills: ['REST APIs', 'LoRaWAN Networks', 'Spring Boot', 'AWS Solutions Architect', 'Telemetry Ingestion', 'Docker'],
+  },
+  {
+    title: 'Languages & Core Systems',
+    icon: (<svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}><path strokeLinecap="round" strokeLinejoin="round" d="M17.25 6.75L22.5 12l-5.25 5.25m-10.5 0L1.5 12l5.25-5.25m7.5-3l-4.5 16.5" /></svg>),
     color: '#10b981',
-    skills: ['Control Algorithms', 'PCB Design', 'CAD (Fusion 360)', 'Mechatronics Integration'],
+    skills: ['Python', 'C++', 'C', 'MATLAB', 'Java', 'Bash', 'C#', 'SQL'],
+  },
+  {
+    title: 'Embedded Hardware & Mechatronics',
+    icon: (<svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}><path strokeLinecap="round" strokeLinejoin="round" d="M11.42 15.17l-5.1-5.1a1.5 1.5 0 010-2.12l.88-.88a1.5 1.5 0 012.12 0l3.22 3.22 7.1-7.1a1.5 1.5 0 012.12 0l.88.88a1.5 1.5 0 010 2.12l-8.98 8.98a1.5 1.5 0 01-2.24 0z" /></svg>),
+    color: '#f59e0b',
+    skills: ['STM32F4 / H7 / WL', 'PCB Design', 'Sensor Integration', 'CAD (Fusion 360)', 'Robotic Actuators'],
   },
 ];
 
