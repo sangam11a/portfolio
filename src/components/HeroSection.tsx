@@ -7,7 +7,7 @@ const roles = [
   'On-Board Computer (OBC) Lead — Slippers2Sat',
   'CubeOS Flight Software Architect (NuttX RTOS)',
   'Embedded Systems & Multi-Layer PCB Designer',
-  'Edge AI, Computer Vision & NLP Researcher',
+  'Edge AI, Computer Vision & NLP (Prasta Nepali)',
   'Backend Telemetry & IoT Systems Engineer',
 ];
 
