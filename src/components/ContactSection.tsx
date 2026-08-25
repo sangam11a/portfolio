@@ -25,8 +25,8 @@ const contactInfo = [
   {
     icon: (<svg className="w-4.5 h-4.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}><path strokeLinecap="round" strokeLinejoin="round" d="M9.75 3.104v5.714a2.25 2.25 0 01-.659 1.591L5 14.5M9.75 3.104c-.251.023-.501.05-.75.082m.75-.082a24.301 24.301 0 014.5 0m0 0v5.714c0 .597.237 1.17.659 1.591L19.8 15.3M14.25 3.104c.251.023.501.05.75.082M19.8 15.3l-1.57.393A9.065 9.065 0 0112 15a9.065 9.065 0 00-6.23.693l-1.57-.393m15.6 0l1.455 3.637A2.25 2.25 0 0119.005 21H4.995a2.25 2.25 0 01-2.09-2.07L4.2 15.3" /></svg>),
     label: 'ResearchGate',
-    value: 'profile/Sangam-Thapa-2',
-    href: 'https://www.researchgate.net/profile/Sangam-Thapa-2',
+    value: 'profile/Sangam-Thapa',
+    href: 'https://www.researchgate.net/profile/Sangam-Thapa',
     color: '#10b981',
   },
   {
