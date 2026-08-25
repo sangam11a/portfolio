@@ -1,0 +1,56 @@
+{
+  "name": "Sangam Thapa Portfolio Agent",
+  "version": "1.0.0",
+  "description": "Agent-to-Agent discovery card for Sangam Thapa — Satellite Systems & OBC Lead, Machine Learning Engineer (Edge AI & Computer Vision), and Embedded Systems Specialist.",
+  "url": "https://thapasangam.com.np",
+  "provider": {
+    "name": "Sangam Thapa",
+    "url": "https://thapasangam.com.np"
+  },
+  "supportedInterfaces": [
+    {
+      "url": "https://thapasangam.com.np/llms.txt",
+      "protocol": "http",
+      "transport": "markdown"
+    },
+    {
+      "url": "https://thapasangam.com.np/api/agent",
+      "protocol": "http",
+      "transport": "json"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "satellite-systems-consultation",
+      "name": "Satellite Systems & OBC Architecture",
+      "description": "Provides expert technical insights into CubeSat On-Board Computers (OBC), CubeOS flight software, and NuttX RTOS integration."
+    },
+    {
+      "id": "machine-learning-perception",
+      "name": "Edge AI & Computer Vision Perception",
+      "description": "Provides information on real-time object detection (YOLOv12S/DETR), TinyML, and NLP Transformer architectures."
+    }
+  ],
+  "skills": [
+    {
+      "id": "cubesat-flight-software",
+      "name": "CubeSat Flight Software & OBC",
+      "description": "Architecture and design of PX4-inspired flight software (CubeOS) on NuttX RTOS for CubeSat buses."
+    },
+    {
+      "id": "embedded-pcb-design",
+      "name": "Embedded Systems & Multi-layer PCB Design",
+      "description": "STM32F4/H7/WL embedded hardware design, LoRaWAN sensor telemetry, and hardware-in-the-loop simulation."
+    },
+    {
+      "id": "nlp-byakaran-transformers",
+      "name": "Natural Language Processing (NLP)",
+      "description": "Transformer-based sequence-to-sequence grammatical error correction for low-resource languages (Prasta Nepali)."
+    },
+    {
+      "id": "computer-vision-detection",
+      "name": "Edge AI & Computer Vision Pipelines",
+      "description": "Benchmarking and deployment of YOLOv12S, DETR, Faster R-CNN, and U-Net models on edge platforms."
+    }
+  ]
+}
