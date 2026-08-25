@@ -1,0 +1,69 @@
+# Sangam Thapa
+
+> Satellite Systems & On-Board Computer (OBC) Lead, Machine Learning Engineer (Edge AI & Computer Vision, NLP), and Embedded Systems & PCB Design Specialist.
+
+- **Website:** https://thapasangam.com.np
+- **Location:** Bhaktapur, Nepal
+- **Email:** sangam.thapa218@gmail.com
+- **Google Scholar:** https://scholar.google.com/citations?user=8llUpnIAAAAJ&hl=en
+- **ResearchGate:** https://www.researchgate.net/profile/Sangam-Thapa
+- **LinkedIn:** https://linkedin.com/in/sangam218
+- **GitHub:** https://github.com/sangam11a
+
+---
+
+## Affiliations & Current Roles
+
+- **On-Board Computer (OBC) Lead & Research Fellow** at **Antarikchya Pratisthan Nepal (Nepal Space Foundation)**:
+  - Leading avionics and flight software design for **Slippers2Sat** — Nepal's first middle school CubeSat mission.
+  - Architected **CubeOS**, a modular, PX4 Autopilot-inspired CubeSat flight software system built on NuttX RTOS for STM32F4/H7 and STM32WL microcontrollers (presented at the 75th International Astronautical Congress, IAC 2024, Milan).
+  - Deployed quantized Edge AI / TinyML U-Net neural networks on STM32H7 for real-time on-orbit image segmentation.
+- **Software & Backend Telemetry Engineer** at **Access System Nepal**:
+  - Architecting distributed LoRaWAN telemetry data ingestion pipelines, low-power STM32WL sensor nodes, and real-time backend alerting services.
+
+---
+
+## Core Technical Competencies
+
+- **Space Systems & Flight Software:** CubeSat On-Board Computers (OBC), CubeOS, NuttX RTOS, PX4 Autopilot, ROS 2, Gazebo SITL, Hardware-in-the-Loop (HIL) Simulation, Satellite Telemetry.
+- **Embedded Hardware & PCB Design:** Multi-layer PCB Design, STM32F4, STM32H7, STM32WL, Sensor Interfacing (SPI/I2C/UART/CAN), Low-Power RF & LoRaWAN, Fusion 360 CAD.
+- **Machine Learning & Edge AI:** PyTorch, TensorFlow, YOLOv12S, YOLOv8, DETR, Faster R-CNN, TinyML, U-Net, Computer Vision (2D/3D Perception).
+- **Natural Language Processing (NLP):** Transformer architectures, Sequence-to-Sequence models, Byakaran grammatical error correction (Prasta Nepali).
+- **Backend & Cloud Infrastructure:** REST APIs, Spring Boot, AWS Certified Solutions Architect Associate, Docker, Telemetry Data Pipelines.
+- **Programming Languages:** Python, C++, C, MATLAB, Java, Bash, C#, SQL.
+
+---
+
+## Peer-Reviewed Publications & Research Papers
+
+1. **CubeOS: A PX4 Autopilot-inspired flight software for Nepal's next-generation CubeSat bus**
+   - *Venue:* 75th International Astronautical Congress (IAC 2024), Milan, Italy
+   - *Link:* https://www.researchgate.net/publication/387270776_CubeOS_A_PX4_Autopilot-inspired_flight_software_for_Nepal's_next-generation_CubeSat_bus
+
+2. **Prasta Nepali: A Transformer based Approach for Automated Nepali Grammar (Byakaran) Error Detection and Correction**
+   - *Venue:* 2025 International Conference on Inventive Computation Technologies (ICICT), IEEE
+   - *DOI:* [10.1109/ICICT64420.2025.11004703](https://doi.org/10.1109/ICICT64420.2025.11004703)
+
+3. **Detection of Seismo-Electromagnetic Waves Using Non-Boom Quad-Mag Technology on Nepal's 1U Slippers2Sat CubeSat**
+   - *Venue:* 32nd IAA SmallSat Symposium / 76th International Astronautical Congress (IAC 2025)
+   - *Link:* https://iafastro.directory/iac/author/sangam218/paper/100556/
+
+4. **Design and Demonstration of a Novel On-Chip Digipeater for Disaster Communication in Nepal's Middle School 1U CubeSat, Slippers2Sat**
+   - *Venue:* 76th International Astronautical Congress (IAC 2025)
+   - *Link:* https://iafastro.directory/iac/paper/id/101513/summary/
+
+5. **Comparative Study of Object Detection Models for Fresh and Rotten Apples and Tomatoes: Faster R-CNN, DETR, YOLOv8, and YOLOv12S**
+   - *Venue:* 2025 International Conference on Inventive Computation Technologies (ICICT), IEEE
+   - *DOI:* [10.1109/ICICT64420.2025.11005373](https://doi.org/10.1109/ICICT64420.2025.11005373)
+
+6. **Bridging Space and Community: Nepal's Indigenous Youth Pioneering CubeSat Technology for Flood, Drought, and Earthquake Resilience**
+   - *Venue:* 75th International Astronautical Congress (IAC 2024)
+   - *Link:* https://iafastro.directory/iac/paper/id/99621/summary/
+
+7. **Slippers2Sat Middle School CubeSat Project: Empowering Nepal's Marginalized Youth for a Spacefaring Future**
+   - *Venue:* 75th International Astronautical Congress (IAC 2024)
+   - *Link:* https://iafastro.directory/iac/paper/id/95372/summary/
+
+8. **Nepal's Journey to Stars: Inspiring Marginalized Youth to Explore Space**
+   - *Venue:* Research Publication / ResearchGate
+   - *Link:* https://www.researchgate.net/publication/394259679_Nepal's_Journey_to_Stars_Inspiring_Marginalized_Youth_to_Explore_Space
