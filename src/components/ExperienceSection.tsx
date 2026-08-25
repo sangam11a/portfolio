@@ -23,11 +23,11 @@ const experiences = [
     color: '#6366f1',
     icon: '🛰️',
     bullets: [
-      'Led the On-Board Computer (OBC) design and software development for the 1U Slippers2Sat CubeSat utilizing STM32F4/H7 and STM32WL SoCs.',
-      'Architected "CubeOS", a modular, PX4 Autopilot-inspired CubeSat flight software system built on NuttX RTOS, presented at the 75th International Astronautical Congress (IAC 2024).',
+      'Serving as On-Board Computer (OBC) Lead for Slippers2Sat — Nepal\'s first middle school CubeSat mission developed by Antarikchya Pratisthan Nepal (Nepal Space Foundation), architecting fault-tolerant avionics on STM32F4/H7 and STM32WL SoCs.',
+      'Architected "CubeOS", a modular, PX4 Autopilot-inspired CubeSat flight software system built on NuttX RTOS for next-generation nano-satellites, presented at the 75th International Astronautical Congress (IAC 2024, Milan).',
       'Developed Hardware-in-the-Loop (HIL) simulations and autonomous robotic satellite behaviors using Gazebo and PX4 SITL.',
-      'Deployed quantized U-Net neural networks on STM32H7 for on-orbit image segmentation and edge machine learning on constrained hardware.',
-      'Mentored indigenous and marginalized middle school students in satellite assembly, flight software concepts, and space technology.',
+      'Deployed quantized Edge AI / TinyML U-Net neural networks on STM32H7 for on-orbit image segmentation and real-time edge processing.',
+      'Mentored indigenous and marginalized middle school students in CubeSat assembly, avionics, flight software concepts, and space technology.',
     ],
   },
   {

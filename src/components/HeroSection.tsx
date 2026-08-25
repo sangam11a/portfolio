@@ -4,10 +4,11 @@ import { motion } from 'framer-motion';
 const EarthScene = lazy(() => import('./EarthScene'));
 
 const roles = [
-  'Satellite Systems & OBC Lead',
-  'Embedded Systems & PCB Design Engineer',
-  'Computer Vision & NLP (Machine Learning)',
-  'Backend Telemetry & IoT Developer',
+  'On-Board Computer (OBC) Lead — Slippers2Sat',
+  'CubeOS Flight Software Architect (NuttX RTOS)',
+  'Embedded Systems & Multi-Layer PCB Designer',
+  'Edge AI, Computer Vision & NLP Researcher',
+  'Backend Telemetry & IoT Systems Engineer',
 ];
 
 function TypingText() {
@@ -111,11 +112,11 @@ export default function HeroSection() {
             transition={{ delay: 1, duration: 0.8 }}
             className="text-[14.5px] text-slate-400 leading-[1.8] mb-10 max-w-lg"
           >
-            Engineering advanced solutions across{' '}
+            Engineering advanced space avionics and intelligent systems across{' '}
             <span className="text-accent-cyan font-medium">Embedded Systems & PCB Design</span>,{' '}
-            <span className="text-accent-indigo font-medium">Computer Vision & NLP (AI/ML)</span>, and{' '}
-            <span className="text-accent-emerald font-medium">Satellite OBC & Backend Telemetry</span>.
-            Lead architect for CubeOS flight software on NuttX RTOS.
+            <span className="text-accent-indigo font-medium">Edge AI & Computer Vision</span>, and{' '}
+            <span className="text-accent-emerald font-medium">Satellite On-Board Computers (OBC)</span>.
+            OBC Lead for <strong className="text-white font-semibold">Slippers2Sat</strong> (Nepal's first middle school CubeSat) at <strong className="text-white font-semibold">Antarikchya Pratisthan Nepal</strong> and architect of <span className="text-accent-violet font-medium">CubeOS</span> flight software.
           </motion.p>
 
           {/* CTAs */}
